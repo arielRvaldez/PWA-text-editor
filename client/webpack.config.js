@@ -24,12 +24,12 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         title: 'Progressive Web Application',
-        template: './src/index.html',
+        template: './index.html',
       }),
 
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'sw.js',
+        swDest: 'src-sw.js',
       }),
 
       new WebpackPwaManifest({
@@ -41,7 +41,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-            src: path.resolve('src/assets/icon.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },

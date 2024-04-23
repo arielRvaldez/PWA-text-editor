@@ -25,7 +25,7 @@ SO THAT I can reliably retrieve them for later use
 
 ## Screenshot
 The following picture shows application example of logo:
-![]
+![](./client/src/images/Screenshot.png)
 
 ## Author
 Here is my <a href="https://github.com/arielRvaldez/PWA-text-editor.git" target="_blank">Github Repo Link</a>.
